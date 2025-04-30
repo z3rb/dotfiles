@@ -1,0 +1,16 @@
+{
+  "icon_theme": "Catppuccin Frappé",
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false
+  },
+  "ui_font_size": 16,
+  "ui_font_family": "Source Sans 3",
+  "buffer_font_size": 12,
+  "buffer_font_family": "Liga SFMono Nerd Font",
+  "theme": {
+    "mode": "system",
+    "light": "Tokyo Night Storm",
+    "dark": "Tokyo Night Storm"
+  }
+}
