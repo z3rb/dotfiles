@@ -1,0 +1,40 @@
+[aws]
+symbol = "aws "
+
+[character]
+success_symbol = "[➜](bold green)"
+
+[directory]
+truncation_length = 5
+
+[git_branch]
+symbol = " "
+
+[git_commit]
+tag_symbol = "  "
+
+[git_metrics]
+disabled = false
+
+[git_status]
+ahead = "⇡${count}"
+diverged = "⇡${ahead_count}⇣${behind_count}"
+behind = "⇣${count}"
+
+[golang]
+symbol = "go "
+
+[kubernetes]
+symbol = "k8s "
+
+[package]
+symbol = "pkg "
+
+[python]
+symbol = "py "
+
+[rust]
+symbol = "rs "
+
+[terraform]
+symbol = "tf "
