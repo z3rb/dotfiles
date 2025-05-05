@@ -22,5 +22,4 @@ brew install tflint
 brew install uv
 brew install xh
 brew install yazi
-brew install zip
 brew install zoxide
