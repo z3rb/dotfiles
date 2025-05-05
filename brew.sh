@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 # Install packages with Homebrew
 brew install awscli
 brew install bat
@@ -22,5 +22,4 @@ brew install tflint
 brew install uv
 brew install xh
 brew install yazi
-brew install zip
 brew install zoxide
