@@ -8,3 +8,8 @@ mkcd () {
 lom () {
     eza -ahlo --time-style="+%Y-%m-%d %H:%M"
 }
+
+# List object metadata as tree
+lomt () {
+    eza -ahloT --time-style="+%Y-%m-%d %H:%M"
+}
