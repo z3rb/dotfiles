@@ -1,5 +1,3 @@
-alias brewtree="brew list | xargs brew deps --tree"
-alias brewup="brew update && brew upgrade && brew cleanup"
 alias cat="bat"
 alias ls='eza -ahlo --time-style="+%Y-%m-%d %H:%M"'
 alias lstree='eza -ahloT --time-style="+%Y-%m-%d %H:%M"'
@@ -10,6 +8,10 @@ alias gbr="git branch -v"
 alias glog="git log --decorate --graph --oneline"
 alias glogs="git log --decorate --graph --oneline --stat"
 alias gst="git status -s"
+
+# Homebrew
+alias brewtr="brew list | xargs brew deps --tree"
+alias brewup="brew update && brew upgrade && brew cleanup"
 
 # Terraform
 alias tffmt="terraform fmt -recursive"
