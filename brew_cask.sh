@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 # Install graphical applications with Homebrew
 brew install --cask 1password
 brew install --cask aws-vault
