@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 # Install packages with Homebrew
 brew install awscli
 brew install bat
