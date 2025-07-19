@@ -1,8 +1,8 @@
 SHELL := /bin/zsh
 
-.PHONY: install
+.PHONY: bootstrap
 
-install:
-	@chmod +x brew.sh
+bootstrap:
+	@chmod +x *.sh
+	@./macos.sh
 	@./brew.sh
-
