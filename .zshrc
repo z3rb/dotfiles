@@ -16,3 +16,6 @@ setopt hist_verify
 setopt hist_no_store
 setopt hist_reduce_blanks
 setopt share_history
+
+# Prompt
+eval "$(starship init zsh)"
