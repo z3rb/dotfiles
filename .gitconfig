@@ -1,0 +1,43 @@
+[column]
+        ui = auto
+[branch]
+        sort = -committerdate
+[tag]
+        sort = version:refname
+[init]
+        defaultBranch = main
+[diff]
+        algorithm = histogram
+        colorMoved = plain
+        renames = true
+        mnemonicPrefix = true
+[push]
+        autoSetupRemote = true
+        followTags = true
+        default = simple
+[help]
+        autocorrect = prompt
+[commit]
+        verbose = true
+[rerere]
+        enabled = true
+        autoupdate = true
+[rebase]
+        autoSquash = true
+        autoStash = true
+        updateRefs = true
+[merge]
+        conflictstyle = zdiff3
+[fetch]
+        prune = true
+        pruneTags = true
+        all = true
+[pull]
+        rebase = true
+[log]
+        date = human
+[stash]
+        showPatch = true
+[include]
+        path = ~/.gitconfig.local
+

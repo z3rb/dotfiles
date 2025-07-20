@@ -5,5 +5,5 @@ if ! command -v brew &>/dev/null; then
 fi
 
 echo "> Installing Homebrew formulae..."
-brew install git
+brew install git stow
 
