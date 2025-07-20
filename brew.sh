@@ -8,4 +8,4 @@ echo "> Installing Homebrew formulae..."
 brew install bat git stow
 
 echo "> Installing Homebrew casks..."
-brew install --cask wezterm@nightly
+brew install --cask font-fira-code-nerd-font wezterm@nightly
