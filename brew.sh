@@ -5,5 +5,7 @@ if ! command -v brew &>/dev/null; then
 fi
 
 echo "> Installing Homebrew formulae..."
-brew install git stow
+brew install bat git stow
 
+echo "> Installing Homebrew casks..."
+brew install --cask font-fira-code-nerd-font wezterm@nightly
