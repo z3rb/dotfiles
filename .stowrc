@@ -1,4 +1,4 @@
---ignore=.*\.(bak|sh)
+--ignore=.*\.(bak|md|sh)
 --ignore=.git
 --ignore=.gitignore
 --ignore=.stowrc
