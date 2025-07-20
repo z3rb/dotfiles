@@ -1,0 +1,6 @@
+--ignore=.*\.(bak|sh)
+--ignore=.git
+--ignore=.gitignore
+--ignore=.stowrc
+--ignore=LICENSE
+--ignore=Makefile
