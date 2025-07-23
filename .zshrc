@@ -19,3 +19,4 @@ setopt share_history
 
 # Prompt
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"

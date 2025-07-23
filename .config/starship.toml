@@ -10,7 +10,6 @@ $directory\
 $git_branch\
 $git_status\
 $git_commit\
-$git_metrics\
 [](fg:yellow bg:green)\
 $golang\
 $lua\
