@@ -5,7 +5,7 @@ if ! command -v brew &>/dev/null; then
 fi
 
 echo "> Installing Homebrew formulae..."
-brew install bat git starship stow zoxide zsh-autocomplete zsh-autosuggestions zsh-syntax-highlighting
+brew install bat eza git starship stow zoxide zsh-autocomplete zsh-autosuggestions zsh-syntax-highlighting
 
 echo "> Installing Homebrew casks..."
 brew install --cask font-fira-code-nerd-font wezterm@nightly
