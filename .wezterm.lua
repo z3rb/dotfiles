@@ -5,7 +5,7 @@ config.color_scheme = 'Catppuccin Macchiato'
 config.cursor_thickness = '2px'
 config.default_cursor_style = 'SteadyBar'
 config.enable_scroll_bar = true
-config.hide_tab_bar_if_only_one_tab = true
+config.enable_tab_bar = false
 config.line_height = 1.2
 config.font = wezterm.font('FiraCode Nerd Font Mono', { weight='Regular', stretch='Normal', style='Normal' })
 config.macos_window_background_blur = 10
