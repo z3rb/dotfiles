@@ -1,0 +1,10 @@
+1password-cli
+bat
+eza
+git
+starship
+stow
+zoxide
+zsh-autocomplete
+zsh-autosuggestions
+zsh-syntax-highlighting
