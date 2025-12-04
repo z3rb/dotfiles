@@ -1,6 +1,11 @@
 #!/usr/bin/env zsh
 set -euo pipefail
 
+# Paths to package lists
+PKG_DIR="${0:A:h}/packages"
+FORMULAE_FILE="${PKG_DIR}/formulae.txt"
+CASKS_FILE="${PKG_DIR}/casks.txt"
+
 if ! command -v brew &>/dev/null; then
     echo "> Installing Homebrew..."
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
