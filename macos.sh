@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env zsh
 # XCode
 echo "> Installing XCode..."
 if ! xcode-select -p &>/dev/null; then
