@@ -18,5 +18,7 @@ setopt hist_reduce_blanks
 setopt share_history
 
 # Prompt
+eval "$(ruff generate-shell-completion zsh)"
 eval "$(starship init zsh)"
+eval "$(uv generate-shell-completion zsh)"
 eval "$(zoxide init zsh)"
