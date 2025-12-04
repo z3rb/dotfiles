@@ -1,4 +1,10 @@
 1password
 font-fira-code-nerd-font
+font-source-sans-3
+obsidian
+orbstack
+postman
 raycast
+slack
+spotify
 wezterm@nightly
