@@ -1,7 +1,11 @@
 #!/bin/zsh
 # XCode
 echo "> Installing XCode..."
-xcode-select --install
+if ! xcode-select -p &>/dev/null; then
+    xcode-select --install
+else
+    echo "XCode already installed."
+fi
 
 # Finder
 echo "> Setting Finder defaults..."
