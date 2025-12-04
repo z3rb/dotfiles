@@ -1,0 +1,4 @@
+1password
+font-fira-code-nerd-font
+raycast
+wezterm@nightly
