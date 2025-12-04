@@ -28,7 +28,7 @@ killall Finder
 
 # Screen
 echo "> Setting screen defaults..."
-mkdir ${HOME}/Screenshots
+mkdir -p ${HOME}/Screenshots
 defaults write com.apple.screencapture location -string "${HOME}/Screenshots"
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
