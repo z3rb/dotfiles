@@ -30,7 +30,6 @@ killall SystemUIServer
 
 # Dock
 echo "> Setting dock defaults..."
-defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock expose-group-apps -bool true
 defaults write com.apple.dock mineffect -string "scale"
 defaults write com.apple.dock orientation -string "left"
