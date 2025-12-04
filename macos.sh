@@ -1,4 +1,6 @@
 #!/usr/bin/env zsh
+set -euo pipefail
+
 # XCode
 echo "> Installing XCode..."
 if ! xcode-select -p &>/dev/null; then
