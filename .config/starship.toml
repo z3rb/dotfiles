@@ -83,9 +83,10 @@ style = "bg:green"
 format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
 
 [aws]
+region_aliases = { us-east-1 = "use1", us-east-2 = "use2" }
 symbol = "aws"
 style = "bg:sapphire"
-format = '[[ $symbol( $profile)(\(#$region\)) ](fg:crust bg:sapphire)]($style)'
+format = '[[ $symbol( $profile $region) ](fg:crust bg:sapphire)]($style)'
 
 [docker_context]
 symbol = "dkr"
