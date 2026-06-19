@@ -1,6 +1,1 @@
---ignore=.*\.(bak|md|sh)
---ignore=.git
---ignore=.gitignore
---ignore=.stowrc
---ignore=LICENSE
---ignore=Makefile
+--no-folding

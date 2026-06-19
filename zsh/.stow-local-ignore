@@ -1,0 +1,9 @@
+^.*\.bak$
+^.*\.sh$
+^LICENSE$
+^Makefile$
+^README\.md$
+^\.DS_Store$
+^\.git$
+^\.git/
+^packages/
