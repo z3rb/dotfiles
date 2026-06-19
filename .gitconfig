@@ -40,4 +40,3 @@
         showPatch = true
 [include]
         path = ~/.gitconfig.local
-
