@@ -23,4 +23,5 @@ eval "$(starship init zsh)"
 eval "$(uv generate-shell-completion zsh)"
 eval "$(zoxide init zsh)"
 
+[[ -f "$HOME/.config/zsh/exports.zsh" ]] && source "$HOME/.config/zsh/exports.zsh"
 [[ -f "$HOME/.config/zsh/functions.zsh" ]] && source "$HOME/.config/zsh/functions.zsh"
