@@ -1,42 +1,42 @@
 [column]
-        ui = auto
+	ui = auto
 [branch]
-        sort = -committerdate
+	sort = -committerdate
 [tag]
-        sort = version:refname
+	sort = version:refname
 [init]
-        defaultBranch = main
+	defaultBranch = main
 [diff]
-        algorithm = histogram
-        colorMoved = plain
-        renames = true
-        mnemonicPrefix = true
+	algorithm = histogram
+	colorMoved = plain
+	renames = true
+	mnemonicPrefix = true
 [push]
-        autoSetupRemote = true
-        followTags = true
-        default = simple
+	autoSetupRemote = true
+	followTags = true
+	default = simple
 [help]
-        autocorrect = prompt
+	autocorrect = prompt
 [commit]
-        verbose = true
+	verbose = true
 [rerere]
-        enabled = true
-        autoupdate = true
+	enabled = true
+	autoupdate = true
 [rebase]
-        autoSquash = true
-        autoStash = true
-        updateRefs = true
+	autoSquash = true
+	autoStash = true
+	updateRefs = true
 [merge]
-        conflictstyle = zdiff3
+	conflictstyle = zdiff3
 [fetch]
-        prune = true
-        pruneTags = true
-        all = true
+	prune = true
+	pruneTags = true
+	all = true
 [pull]
-        rebase = true
+	rebase = true
 [log]
-        date = human
+	date = human
 [stash]
-        showPatch = true
+	showPatch = true
 [include]
-        path = ~/.gitconfig.local
+	path = ~/.gitconfig.local
