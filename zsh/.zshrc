@@ -1,9 +1,3 @@
-# Plugins
-source /opt/homebrew/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-# History
 SAVEHIST=1000000
 HISTSIZE=1000000
 setopt extended_history
@@ -17,11 +11,8 @@ setopt hist_no_store
 setopt hist_reduce_blanks
 setopt share_history
 
-# Prompt
-eval "$(ruff generate-shell-completion zsh)"
 eval "$(starship init zsh)"
-eval "$(uv generate-shell-completion zsh)"
-eval "$(zoxide init zsh)"
 
 [[ -f "$HOME/.config/zsh/exports.zsh" ]] && source "$HOME/.config/zsh/exports.zsh"
 [[ -f "$HOME/.config/zsh/functions.zsh" ]] && source "$HOME/.config/zsh/functions.zsh"
+[[ -f "$HOME/.config/zsh/plugins.zsh" ]] && source "$HOME/.config/zsh/plugins.zsh"
